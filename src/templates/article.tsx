@@ -2,13 +2,14 @@ import * as React from "react"
 import { graphql, HeadFC, PageProps } from "gatsby"
 import TopNav from "../components/TopNav"
 
-const ArticleTemplate = ({ data } : any) => {
+const ArticleTemplate = (pageProps: PageProps<Queries.ArticleMarkdownPageQuery>) => {
+    const { data } = pageProps
     const { markdownRemark } = data
-    const { frontmatter, html } = markdownRemark    
+    const { html, frontmatter } : any = markdownRemark
 
     return (
         <main>
-            <TopNav selected={frontmatter.slug}></TopNav>
+            <TopNav path={pageProps.path}></TopNav>
 
             <h1>{ frontmatter.title }</h1>
             <div
@@ -20,18 +21,6 @@ const ArticleTemplate = ({ data } : any) => {
 
 export default ArticleTemplate
 
-export const query = graphql`
-  query TypegenPage($id: String!) {
-    markdownRemark(id: { eq: $id }) {
-      html
-      frontmatter {
-        date(formatString: "MMMM DD, YYYY")
-        slug
-        title
-      }
-    }
-  }`
-
 export const Head: HeadFC = ({ data }: any) => 
 (
     <>
@@ -42,4 +31,15 @@ export const Head: HeadFC = ({ data }: any) =>
         <script src="/lib/bootstrap/js/bootstrap.bundle.min.js" />
     </>
 )
-    
+
+export const query = graphql`
+  query ArticleMarkdownPage($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      html
+      frontmatter {
+        date(formatString: "MMMM DD, YYYY")
+        slug
+        title
+      }
+    }
+  }`

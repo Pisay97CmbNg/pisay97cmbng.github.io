@@ -1,0 +1,73 @@
+- year : 2009
+  ordinal: 1
+  awardees :
+      - cluster: H&SS
+        name : Ms. AMALIA BUENAFE
+        campus : Main Campus (Quezon City)
+      - cluster: M&CS
+        name : Ms. FLORIEDES S. ANDA
+        campus : Main Campus (Quezon City)
+      - cluster: NS  
+        name : Mr. NIÑO ESPINAS
+        campus : Main Campus (Quezon City)
+- year : 2010
+  ordinal: 2
+  awardees :
+      - cluster: H&SS
+        name : Dr. CRISTINA CRISTOBAL
+        campus : Main Campus (Quezon City)
+      - cluster: NS  
+        name : Dr. JANETH FUENTES
+        campus : Eastern Visayas Campus (Palo, Leyte)
+  nominees :
+      - cluster: H&SS
+        name : Mr. Eduardo V. Cipriano
+        campus : Main Campus (Quezon City)
+      - cluster: M&CS  
+        name : Mr. Fortunato Tacuboy
+        campus : Main Campus (Quezon City)
+      - cluster: NS 
+        name : Ms. Cynthia V. Andaya
+        campus : Main Campus (Quezon City)
+      - cluster: NS
+        name : Mr. Delfin C. Angeles
+        campus : Main Campus (Quezon City)
+      - cluster: H&SS
+        name : Ms. Anecita T. Altis
+        campus : Western Visayas Campus (Iloilo) 
+      - cluster: H&SS
+        name : Ms. Eileen P. Ocampo
+        campus : Western Visayas Campus (Iloilo) 
+      - cluster: H&SS  
+        name : Ms. Yvonne M. Esperas
+        campus : Eastern Visayas Campus (Palo, Leyte)
+- year : 2014
+  ordinal : 3
+  awardees :
+      - cluster: H&SS
+        name : Ms. CELESTE AGUILA
+        campus : Main Campus (Quezon City)
+      - cluster: NS  
+        name : Dr. MYRNA LIBUTAQUE
+        campus : Western Visayas Campus (Iloilo)
+- year : 2017
+  ordinal : 4
+  awardees :
+      - cluster: M&CS
+        name : Mr. JAYSON P. BINGCANG 
+        campus : Main Campus (Quezon City)
+      - cluster: H&SS  
+        name : Dr. CARLITO A. CERBO
+        campus : Western Visayas Campus (Iloilo)  
+- year : 2021
+  ordinal : 5
+  awardees :
+      - cluster: H&SS
+        name : Dr. CHRISTINE JOY D.R. AGUILA
+        campus : Main Campus (Quezon City)
+      - cluster: NS
+        name : Dr. ERIKA EUNICE P. SALVADOR
+        campus : Western Visayas Campus (Iloilo) 
+      - cluster: M&CS
+        name : Dr. RONNA Y. MAGTO 
+        campus : Central Mindanao Campus (Lanao)

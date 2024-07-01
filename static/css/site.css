@@ -4,6 +4,10 @@ body {
     font-family: -apple-system, Roboto, sans-serif, serif
 }
 
+.topnav {
+    height: 160px;
+}
+
 img.site-logo {
-    margin-bottom: 40px;
+    display: inline-block;
 }

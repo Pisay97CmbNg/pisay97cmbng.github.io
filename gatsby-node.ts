@@ -7,7 +7,7 @@ export const createPages : GatsbyNode['createPages'] = async ({ graphql, actions
         errors?: any;
         data?: { allMarkdownRemark: { nodes: { id: string, frontmatter: { slug?: string } }[] } };
     } = await graphql(`
-          query AllArticlesQuery {
+          query AllArticles {
               allMarkdownRemark( filter: {fileAbsolutePath: {regex: "/articles/.*[.]md$/"}} )
               {
                   nodes

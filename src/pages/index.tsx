@@ -2,18 +2,10 @@ import * as React from "react"
 import type { HeadFC, PageProps } from "gatsby"
 import TopNav from "../components/TopNav"
 
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-}
-
-const IndexPage: React.FC<PageProps> = () => {
+const IndexPage: React.FC<PageProps> = (pageProps) => {
   return (
     <main>
-
-      <TopNav selected="home"></TopNav>
+      <TopNav path={pageProps.path}></TopNav>
 
       <h1>
       6th Natatanging Guro Awards 2024
