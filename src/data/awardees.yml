@@ -19,28 +19,6 @@
       - cluster: NS  
         name : Dr. JANETH FUENTES
         campus : Eastern Visayas Campus (Palo, Leyte)
-  nominees :
-      - cluster: H&SS
-        name : Mr. Eduardo V. Cipriano
-        campus : Main Campus (Quezon City)
-      - cluster: M&CS  
-        name : Mr. Fortunato Tacuboy
-        campus : Main Campus (Quezon City)
-      - cluster: NS 
-        name : Ms. Cynthia V. Andaya
-        campus : Main Campus (Quezon City)
-      - cluster: NS
-        name : Mr. Delfin C. Angeles
-        campus : Main Campus (Quezon City)
-      - cluster: H&SS
-        name : Ms. Anecita T. Altis
-        campus : Western Visayas Campus (Iloilo) 
-      - cluster: H&SS
-        name : Ms. Eileen P. Ocampo
-        campus : Western Visayas Campus (Iloilo) 
-      - cluster: H&SS  
-        name : Ms. Yvonne M. Esperas
-        campus : Eastern Visayas Campus (Palo, Leyte)
 - year : 2014
   ordinal : 3
   awardees :
