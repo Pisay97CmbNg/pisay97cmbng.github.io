@@ -11,10 +11,16 @@ const ArticleTemplate = (pageProps: PageProps<Queries.ArticleMarkdownPageQuery>)
         <main>
             <TopNav path={pageProps.path}></TopNav>
 
-            <h1>{ frontmatter.title }</h1>
-            <div
-                dangerouslySetInnerHTML={{ __html: html }}
-            />
+            <div className="container">
+                <div className="p-5 mb-4">
+                  <h1>
+                    <h1>{ frontmatter.title }</h1>
+                  </h1>
+              </div>
+              <div
+                  dangerouslySetInnerHTML={{ __html: html }}
+              />
+            </div>
         </main>
     )
   }

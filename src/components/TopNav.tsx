@@ -14,7 +14,7 @@ const TopNav = (props : any) => {
     return (
         <div className="topnav">
             <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top border-bottom">
-            <div className="container-fluid">
+            <div className="container">
                 <Link className="navbar-brand" to="/">
                     <img className="site-logo" alt="CNG NG Logo" width="300" src="/images/cmb-ng.png" />
                 </Link>
