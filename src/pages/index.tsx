@@ -12,7 +12,7 @@ const IndexPage: React.FC<PageProps> = (pageProps) => {
       </h1>
 
       <p>
-      The Philippine Science High School - Main Campus Batch of 1997 announces its partnership with the PSHS Foundation Inc. and PSHS Batch 1982, with support from the PSHS National Alumni Association and the PSHS Sytem Administration, in the stewardship of the Dr. CLEOFE M. BACUÑGAN NATATANGING GURO Endowment Fund. The endowment fund is used primarily as the seed fund for the Dr. CLEOFE M. BACUÑGAN NATATANGING GURO Awards. 
+      The Philippine Science High School - Main Campus Batch of 1997 announces its partnership with the PSHS Foundation Inc. and PSHS Batch 1982, with support from the PSHS National Alumni Association and the PSHS System Administration, in the stewardship of the Dr. CLEOFE M. BACUÑGAN NATATANGING GURO Endowment Fund. The endowment fund is used primarily as the seed fund for the Dr. CLEOFE M. BACUÑGAN NATATANGING GURO Awards. 
       </p>
       <p>
       Established in 2007 by PSHS Batch 1982, the Dr. CLEOFE M. BACUÑGAN NATATANGING GURO Awards aims to maintain high teaching excellence in Science, Mathematics and Humanities in the PSHS System across all 16 campuses in the country.

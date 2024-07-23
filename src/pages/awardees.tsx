@@ -27,14 +27,6 @@ const IndexPage: React.FC<PageProps<Queries.AwardeesPageQuery>> = (pageProps) =>
                 ))
               }
               </div>
-              <div className="col">
-              <p><b>Nominees</b></p>
-              {
-                awardYear?.nominees?.map(a => (
-                    <div>{a?.name} - {a?.campus} <span className="badge bg-info">{a?.cluster}</span></div>
-                ))
-              }
-              </div>
             </div>
             <p className="card-text"></p>
           </div>
@@ -69,12 +61,7 @@ export const query = graphql`
           name
           campus
           cluster
-        }
-        nominees {
-          name
-          campus
-          cluster
-        }          
+        }       
       }
     }
   }`
